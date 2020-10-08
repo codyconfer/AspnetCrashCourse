@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspnetCrashCourse.Schema", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspnetCrashCourse.Logic", "AspnetCrashCourse.Logic\AspnetCrashCourse.Logic.csproj", "{33B1337A-82B7-494D-98CB-3EBDEC30BD2E}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspnetCrashCourse.Data", "AspnetCrashCourse.Data\AspnetCrashCourse.Data.csproj", "{54D98422-8F39-4B43-B4A9-5FE0767512F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{33B1337A-82B7-494D-98CB-3EBDEC30BD2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33B1337A-82B7-494D-98CB-3EBDEC30BD2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33B1337A-82B7-494D-98CB-3EBDEC30BD2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54D98422-8F39-4B43-B4A9-5FE0767512F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54D98422-8F39-4B43-B4A9-5FE0767512F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54D98422-8F39-4B43-B4A9-5FE0767512F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54D98422-8F39-4B43-B4A9-5FE0767512F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
