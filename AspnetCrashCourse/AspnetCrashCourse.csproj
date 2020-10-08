@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AspnetCrashCourse.Logic\AspnetCrashCourse.Logic.csproj" />
     <ProjectReference Include="..\AspnetCrashCourse.Schema\AspnetCrashCourse.Schema.csproj" />
   </ItemGroup>
 
