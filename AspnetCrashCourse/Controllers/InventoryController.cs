@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using AspnetCrashCourse.Logic.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace AspnetCrashCourse.Controllers
 {
@@ -21,6 +22,6 @@ namespace AspnetCrashCourse.Controllers
 
         [HttpGet]
         public IActionResult Get() =>
-            throw new NotImplementedException();
+            new JsonResult(JsonConvert.SerializeObject(InventoryService.GetInventory()));
     }
 }
